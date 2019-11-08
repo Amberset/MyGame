@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@mipmap/back">
+
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="v1.0.0"
+        android:textSize="20sp"
+        android:textColor="@color/colorWhite"/>
+
+
+    <TextView
+        android:id="@+id/suggestions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\t\t\t\t\t\t\t\t\t\t\t\t健康游戏忠告
+                       \n抵制不良游戏，拒绝盗版游戏
+                       \n注意自我保护，谨防上当受骗
+                       \n适度游戏益脑，沉迷游戏伤身
+                       \n合理安排时间，享受健康生活"
+        android:textSize="25sp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="300dp"/>
+
+    <Button
+        android:id="@+id/startGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/suggestions"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"
+        android:text="START GAME"
+        android:background="#00000000"
+        android:textColor="@color/colorWhite"
+        android:textSize="35dp"/>
+
+
+</RelativeLayout>
